@@ -5,39 +5,86 @@
 <title>Project 2</title>
 
 <style>
-    /* Basic page styling */
     body {
         font-family: Arial, sans-serif;
-        background-color: #f7f6f2;
+        background-color: #FAF9F6;
         color: #333;
         text-align: center;
-        padding: 20px;
+        padding: 0px;
+    }
+
+    .top-section {
+        background-color: #dcd0b0;
+        padding: 40px 60px 80px;
     }
 
     h1 {
         color: #4d3d2f;
-        font-size: 36px;
-        margin-bottom: 20px;
+        font-size: 40px;
+        margin-top: 75px;
+        margin-bottom: 15px;
     }
 
-    h2, h3 {
+    h2 {
         color: #6d5a4e;
+        font-size: 30px
     }
 
-    /* Image styling */
     img {
-        width: 330px;
+        width: 400px;
         border-radius: 20px;
-        margin-top: 20px;
-        margin-bottom: 40px; /* space between image and paragraph */
+        margin-top: 10px;
+        margin-bottom: 60px;
     }
 
-    /* Paragraph styling */
     p {
-        font-size: 16px;
-        max-width: 1400px;
+        font-size: 20px;
+        max-width: 1100px;
         margin: auto;
-        line-height: 1.8;
+        line-height: 1.5;
+    }
+
+    hr {
+    border: 0;
+    height: 12px;
+    background-color: #8b5e34;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    }
+
+   .driving-images img,
+    .frolicking-images img,
+    .silly-images img,
+    .cuddle-images img,
+    .sleep-images img,
+    .fit-images img {
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .bottom-hr {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+
+    .bottom-section {
+        background-color: #dcd0b0;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 60px
+    }
+
+    h3 {
+        color: #6d5a4e;
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-top: 40px;
     }
 
     /* Link styling */
@@ -52,9 +99,8 @@
         border-radius: 5px;
     }
 
-    /* Footer styling */
     footer {
-        margin-top: 30px;
+        margin-top: 20px;
         font-size: 14px;
         color: #999;
     }
@@ -63,24 +109,108 @@
 </head>
 <body>
 
-<h1>Meet My Dog!</h1>
+<div class="top-section">
+    <h1>Meet My Dog!</h1>
 
-<h2>This is Bruno 🐶🐾🦴</h2>
-<img src="pics/IMG_6315.jpg" alt="Bruno">
+    <h2>This is Bruno 🐶🐾🦴</h2>
+    <img src="pics/IMG_6315.jpg" alt="Bruno">
 
-<p>
-    Bruno is a very unique French bulldog. His fur is a mix of dark and light greys, tan, and white,
-    making him stand out from his fellow frenchie brethren. Not only is Bruno striking in appearance, but also in personality.
-    Many say that frenchies are amazing "lap dogs" however Bruno chooses to live his life in sport mode. He is always down
-    for either a fun, new adventure, or displaying one of his many silly skills or hobbies. Keep scrolling to see him in action!
-</p>
+    <p>
+        Bruno is a very unique French bulldog. His fur is a mix of dark and light greys, tan, and white,
+        making him stand out from his fellow frenchie brethren. Not only is Bruno striking in appearance, but also in personality.
+        Many say that frenchies are amazing "lap dogs" however Bruno chooses to live his life in sport mode. He is always down
+        for either a fun, new adventure, or displaying one of his many silly skills or hobbies. Keep scrolling to see him in action!
+    </p>
+</div>
+<hr>
 
-<h3>Want to learn more about French bulldogs?</h3>
-<a href="https://www.akc.org/dog-breeds/french-bulldog/" target="_blank">French Bulldog Info</a>
+
+    <div class="driving-section">
+        <h2>Hobby 1: F1 Driver</h2>
+        <p style="font-size: 22px;">
+            One of Bruno's favorite things is to go for a drive 🏎️
+        </p>
+        <div class="driving-images">
+            <img src="pics/IMG_6218.jpg" alt="Bruno smiling in the backseat">
+            <img src="pics/IMG_1319.JPG" alt="Bruno waiting in the car">
+            <img src="pics/IMG_1294 2.jpg" alt="Bruno in the kei truck">
+            <img src="pics/IMG_4775 2.jpg" alt="Bruno looking over his shoulder">
+        </div>
+    </div>
+
+    <div class="frolicking-section">
+        <h2>Hobby 2: Frolicking Fiend</h2>
+        <p style="font-size: 22px;">
+            He also loves to frolick around outside☘️
+        </p>
+        <div class="frolicking-images">
+            <img src="pics/IMG_3431.jpg" alt="Bruno on a walk">
+            <img src="pics/IMG_1079.JPG" alt="Bruno on a walk">
+            <img src="pics/IMG_1086 2.jpg" alt="Bruno on a walk">
+        </div>
+    </div>
+
+    <div class="Silly-section">
+        <h2>Hobby 3: Silly Goose</h2>
+        <p style="font-size: 22px;">
+            Bruno has a love for making people laugh🪿
+        </p>
+        <div class="silly-images">
+            <img src="pics/IMG_0280.jpg" alt="Bath time">
+            <img src="pics/IMG_8829.jpg" alt="Stuck on the table">
+            <img src="pics/IMG_2450.JPG" alt="Bruno on his back">
+            <img src="pics/IMG_0568.JPG" alt="Hoolahoop fishing">
+            <img src="pics/IMG_5315.jpg" alt="Bruno asking for pie">
+            <img src="pics/IMG_1283.jpg" alt="Cartoon face">
+        </div>
+    </div>
+
+    <div class="cuddle-section">
+        <h2>Hobby 4: Cuddle Bug</h2>
+        <p style="font-size: 22px;">
+            He needs to be with someone 24/7🥰
+        </p>
+        <div class="cuddle-images">
+            <img src="pics/IMG_0217.jpg" alt="Big yawn">
+            <img src="pics/IMG_5290.JPG" alt="Morning hugs">
+            <img src="pics/IMG_6249_2.jpg" alt="Big kiss">
+        </div>
+    </div>
+
+    <div class="sleepy-section">
+        <h2>Hobby 5: Lazy Bones Jones</h2>
+        <p style="font-size: 22px;">
+            Sometimes Bruno is immensly chill😴
+        </p>
+            <div class="sleep-images">
+            <img src="pics/IMG_8430.JPG" alt="Tucked in bed">
+            <img src="pics/IMG_0426.jpg" alt="Out cold">
+            <img src="pics/IMG_5186.JPG" alt="Bundled up">
+        </div>
+    </div>
+
+    <div class="sleepy-section">
+        <h2>Hobby 6: Super Fly</h2>
+        <p style="font-size: 22px;">
+            Bruno likes to be dripped out, go Dodgers!!!👕
+        </p>
+        <div class="fit-images">
+            <img src="pics/IMG_6387.jpg" alt="Hoodie">
+            <img src="pics/IMG_8945.jpg" alt="Dodgers fan">
+            <img src="pics/IMG_8930.jpg" alt="Dodgers fan">
+            <img src="pics/IMG_2341.jpg" alt="Dressed to the nines"">
+        </div>
+    </div>
+
+<hr class="bottom-hr">
+
+<div class="bottom-section">
+    <h3>Want to learn more about French bulldogs?</h3>
+    <a href="https://www.akc.org/dog-breeds/french-bulldog/" target="_blank">French Bulldog Info</a>
 
 <footer>
     &copy; 2025 Bruno Hori Fan Page
 </footer>
-
+</div>
 </body>
 </html>
